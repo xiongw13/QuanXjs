@@ -102,12 +102,12 @@ if (isGetCookie = typeof $request !== 'undefined') {
 function GetCookie() {
     if ($request && $request.headers) {
         var cookieVal = $request.headers['authToken']
-        var COOKIE = $request.headers['cookie']
+        var COOKIE = $request.headers['Cookie']
       $.setdata(COOKIE, config.CookieKey)
         if (cookieVal) {
             if ($.setdata(cookieVal, config.authTokenKey)) {
                 $.msg(config.name, '获取authToken: 成功', '')
-              // console.log(`[${config.name}] 获取authToken: 成功, authToken: ${cookieVal}, Cookie: [${COOKIE}]` )
+                console.log(`[${config.name}] 获取authToken: 成功, authToken: ${cookieVal}, Cookie: [${COOKIE}]` )
             }
         }
     }
