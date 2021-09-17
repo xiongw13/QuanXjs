@@ -1,0 +1,19 @@
+{
+  "id": "xiongwang.app.sub",
+  "name": "私人订阅",
+  "author": "@xiongw13",
+  "icon": "https://avatars3.githubusercontent.com/u/29748519?s=460&u=392a19e85465abbcb1791c9b8b32184a16e6795e&v=4",
+  "repo": "https://github.com/xiongw13/QuanXjs",
+  "apps": [
+    {
+      "id": "10000",
+      "name": "中国电信",
+      "keys": [cookieName],
+      "author": "@dompling",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/10010.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/10000.png"
+      ]
+    }
+  ]
+}
