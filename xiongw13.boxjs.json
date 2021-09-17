@@ -8,8 +8,8 @@
     {
       "id": "10000",
       "name": "中国电信",
-      "keys": [cookieName],
-      "author": "@dompling",
+      "keys": ["cookieName"],
+      "author": "@xiongw13",
       "icons": [
         "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/10010.png",
         "https://raw.githubusercontent.com/Orz-3/mini/master/Color/10000.png"
