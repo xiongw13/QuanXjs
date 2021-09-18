@@ -6,9 +6,10 @@ const chavy = init()
 if (this.$request && this.$request.headers && this.$request.body) {
   const VAL_signheader = JSON.stringify($request.headers)
   const VAL_signbody = this.$request.body
+  const CV = (this.$request.headers['Cookie'] || this.$request.headers['cookie'] || '');
   if (VAL_signheader) chavy.setdata(VAL_signheader, KEY_signheader)
   if (VAL_signbody) chavy.setdata(VAL_signbody, KEY_signbody)
-  chavy.msg(cookieName, `获取Cookie: 成功`, KEY_signheader)
+  chavy.msg(cookieName, `获取Cookie: 成功`, CV)
 }
 
 function init() {
