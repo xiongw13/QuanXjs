@@ -8,7 +8,7 @@ if (this.$request && this.$request.headers && this.$request.body) {
   const VAL_signbody = this.$request.body
   if (VAL_signheader) chavy.setdata(VAL_signheader, KEY_signheader)
   if (VAL_signbody) chavy.setdata(VAL_signbody, KEY_signbody)
-  chavy.msg(cookieName, `获取Cookie: 成功`, ``)
+  chavy.msg(cookieName, `获取Cookie: 成功`, VAL_signbody)
 }
 
 function init() {
