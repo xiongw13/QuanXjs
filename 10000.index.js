@@ -3,7 +3,7 @@ $ = new API(APIKey, true);
 if ($request) GetCookie();
 
 function GetCookie() {
-  if ($request.url.indexOf('package_detail.do') > -1) {
+  if ($request.url.indexOf('show.do') > -1) {
     const cookie = $request.headers.Cookie;
     $.log($request.headers);
     if (cookie && cookie.indexOf('JSESSIONID') > -1) {
