@@ -6,39 +6,13 @@
   "repo": "https://github.com/xiongw13/QuanXjs",
   "apps": [
     {
-      "id": "10000",
+      "id": "10000Ck",
       "name": "中国电信",
-      "keys": ["COOKIE"],
+      "keys": ["@YaYa_10000.cookie"],
       "author": "@xiongw13",
       "icons": [
         "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/10010.png",
-        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/10000.png"
-      ]
-    },
-    {
-      "author": "@sunert", 
-      "keys": [
-        "china_telecom_authToken_10000", 
-        "china_telecom_cookie",
-        "telecom_sign",
-        "telecom_act"
-      ], 
-      "repo": "https://github.com/xiongw13/QuanXjs/blob/main/telecomInfinity.js", 
-      "id": "chinatelecomEnquiry", 
-      "script": "https://raw.githubusercontent.com/xiongw13/QuanXjs/main/telecomInfinity.js", 
-      "settings": [
-        {
-          "id": "Mon", 
-          "val": "2021-08", 
-          "name": "查询月份", 
-          "type": "month", 
-          "desc": "填入账单月份，可查最近六个月，本月账单下月可查"
-        }
-      ], 
-      "name": "天翼电信套餐查询", 
-      "icons": [
-        "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/telecominfinty.png", 
-        "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/telecominfinty.png"
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png"
       ]
     }
   ]
