@@ -23,13 +23,13 @@
         "telecom_sign",
         "telecom_act"
       ], 
-      "repo": "https://github.com/Sunert/Script/blob/master/Task/telecomSky.js", 
+      "repo": "https://github.com/xiongw13/QuanXjs/blob/main/telecomInfinity.js", 
       "id": "chinatelecomEnquiry", 
-      "script": "https://raw.githubusercontent.com/Sunert/Script/master/Task/telecomSky.js", 
+      "script": "https://raw.githubusercontent.com/xiongw13/QuanXjs/main/telecomInfinity.js", 
       "settings": [
         {
           "id": "Mon", 
-          "val": "2020-08", 
+          "val": "2021-08", 
           "name": "查询月份", 
           "type": "month", 
           "desc": "填入账单月份，可查最近六个月，本月账单下月可查"
