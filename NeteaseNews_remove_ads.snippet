@@ -6,13 +6,13 @@
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/NeteaseNews.png
 #!date = 2024-01-12 08:50:09
 
-^https:\/\/interface\.music\.163\.com\/eapi\/ad reject
-^https:\/\/c\.m\.163\.com\/nc\/gl\/ reject
-^https:\/\/client\.mail\.163\.com\/apptrack\/confinfo\/searchMultiAds reject
-^https:\/\/g1\.163\.com\/madfeedback reject
-^https:\/\/interface\.music\.163\.com\/eapi\/ad\/ reject
-^https?\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json reject
-^https:\/\/interface3?\.music\.163\.com/eapi/(ad|abtest|sp|hot|store|search/(specialkeyword|defaultkeyword|hot)) reject
+^https:\/\/interface\.music\.163\.com\/eapi\/ad url reject
+^https:\/\/c\.m\.163\.com\/nc\/gl\/ url reject
+^https:\/\/client\.mail\.163\.com\/apptrack\/confinfo\/searchMultiAds url reject
+^https:\/\/g1\.163\.com\/madfeedback url reject
+^https:\/\/interface\.music\.163\.com\/eapi\/ad\/ url reject
+^https?\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json url reject
+^https:\/\/interface3?\.music\.163\.com/eapi/(ad|abtest|sp|hot|store|search/(specialkeyword|defaultkeyword|hot)) url reject
 
 ^https:\/\/nex\.163\.com\/q url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/news163.js
 ^https:\/\/gw\.m\.163\.com\/nc\/api\/v1\/feed\/dynamic\/headline-list\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/news163.js
